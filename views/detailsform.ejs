@@ -1,0 +1,8 @@
+<h4>Welcome <%= result.username %></h4>
+<h4>MONGO-ID: <%= result._id %></h4>
+<form action= "/detailsform/<%= result._id %>" method="POST"> 
+
+    <input type="text" name="firstname" placeholder="First Name">
+    <input type="text" name="Age" placeholder="Age">
+    <button>Submit</button>
+</form>
